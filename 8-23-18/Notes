@@ -1,2 +1,14 @@
 8-23-18 meeting with Dr. Holmes
 
+----------------------------------------
+On the agenda:
+- discuss figure on occupancy bias created by multiplicative noise asymmetry
+- not sure about constructing a toy model that would reproduce rel occ ~ Hill function
+- discuss short notes on how noise asymmetry can be created by bidirectional reactions in quasi-equilibrium (which contribute to noise,
+but not to average expression dynamics)
+- possible review/perspective paper on GRNs and cell state transitions, in the context of designing closed-loop control of cell (Wikswo)
+- resuming work with Linghui
+- using GitHub to document meetings/research work
+
+
+-----------------------------------------------------------
