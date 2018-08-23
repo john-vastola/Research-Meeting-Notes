@@ -14,3 +14,28 @@ but not to average expression dynamics)
 - using GitHub to document meetings/research work
 
 -----------------------------------------------------------
+
+Think about doing perturbation theory or something to guess what the slope of the fraction vs noise ratio line looks like
+
+Figure critique:
+- think about figures in terms of size/importance
+- may be interesting for juxtaposition: symmetrize noise and vary basal activation rate asymmetry
+- think about one-column vs two-column figures: how will figure squeeze into 3 inch page? maybe eliminate whitespace, work on text sizing. 
+- possibly move colorbar inward to create less hanging whitespace
+- change linewidth to 1.5 (1.0 right now?)
+- font: 12 for labels, 11 for tick numbers
+- possibly add to panel D: theoretical slope around center via perturbation theory, horizontal line indicating 50-50
+- DEAD WHITESPACE IS YOUR ENEMY
+
+do transition path figure next. Get least action software up and running. Make the point that path shape is only sensitive to noise ratio.
+
+Review article (focus: GRN and transition paths):
+- think about reviewing landscape stuff
+- special issue: want to put coherent account of stuff here, don't worry about stuff being discussed elsewhere
+- can sneak in some Lagrangian thoughts
+
+Linghui: dedicate ~1-1.5 hrs of in person time per week (1 long meeting or 2 short meetings or whatever), Holmes ~1 hr or less every two weeks as needed
+make roadmap of what want to get done
+case study idea: here's when additive is good, here's when multiplicative is good, here's when neither is good. here's why. 
+Transition paths shapes/times/etc.
+
