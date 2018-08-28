@@ -1,0 +1,9 @@
+Notes for 8/29/18 meeting
+
+Agenda:
+------------
+- Any update on timeline for Wikswo review/perspective paper?
+- Unexpected issue with empirical calculation of least action path: it is NOT true that results for sig_x = sig_y = 0.35 are the same as
+  the results for sig_x = sig_y = 0.55 etc. I predicted, based on the Onsager-Machlup Lagrangian, that only the ratio sig_x/sig_y
+  controlled the shape of the path. What's going on? I suspect there is an issue with the way I am calculating the `most likely' path.
+- Can we all use GitHub? (me, you, Cole, Linghui) How should we set it up? We should discuss this together. 
