@@ -5,7 +5,8 @@ Agenda:
 - Any update on timeline for Wikswo review/perspective paper?
 - Can we all use GitHub? (me, you, Cole, Linghui) How should we set it up? We should discuss this together.
 - Linghui: decided to meet half hour Tuesday and Friday
-- need to sign up for research hours but you are not selectable online. Who do I talk to, how many do I sign up for?
+- need to sign up for research hours but you are not selectable online. Who do I talk to, how many do I sign up for? (edit: Don 
+  answered this, you are copied on the email)
 
 - Unexpected issue with empirical calculation of least action path: it is NOT true that results for sig_x = sig_y = 0.35 are the same as
   the results for sig_x = sig_y = 0.55 etc. I predicted, based on the Onsager-Machlup Lagrangian, that only the ratio sig_x/sig_y
@@ -21,6 +22,12 @@ Agenda:
   points in time to check. For each point in time, generate a histogram of the x and y values. The most likely x value and y value represent
   the 'least action' path at that time.
   The main issue is that you need to generate a lot of paths that make it through the filter. Working on this now.
+- As far as generating Lagrangian-derived least action paths, I experimented with some simple systems on paper to get intuition. 
+  Even if you can find an analytic solution, there is the matter of determining one of the arbitrary constants (which depends on the
+  final location, and the total time). Numerically, all the methods available seem to just have to guess that arbitrary parameter
+  (in practice, guessing the initial velocity, which is equivalent) until it ends up satisfying the boundary conditions.
+  That is annoying, so I will fix the start point, end point, and total time, and vary the intermediate points to minimize the 
+  action (i.e. not use the Euler-Lagrange equations at all). Too bad, since I figured one could work out some tricks using them.
 - still thinking about how to do perturbation theory to predict locally how the occupancy fraction changes with the noise ratio. Might
   not worry about it since it seems you have to be clever: perturbation theory with just the FP probability distribution is 
   conventional, but this is PT with the FP distribution appropriately integrated. 
