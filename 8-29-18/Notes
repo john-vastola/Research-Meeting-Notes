@@ -43,3 +43,17 @@ Agenda:
   distribution (the noise coefficients effectively become fit parameters). 
   But for multistable distributions, additive/multiplicative noise approximations will yield very different results. 
   Another good reason to think about a bistable switch. 
+
+
+---------------------------
+
+During meeting:
+
+
+- Wikswo thing: hold tight
+- consider making a kernel density plot of a bunch of paths overlayed on top of each other to get a sense of least action path (although 
+  you will not get a single path)
+- consider using more than just the peak from the histogram. Does it make sense to use localized time? Should use some others.
+- consider overlaying LAP on kernel density plot
+- don't worry about perturbation theory
+- focus: getting some trans path pic done
