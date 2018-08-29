@@ -3,7 +3,27 @@ Notes for 8/29/18 meeting
 Agenda:
 ------------
 - Any update on timeline for Wikswo review/perspective paper?
+- Can we all use GitHub? (me, you, Cole, Linghui) How should we set it up? We should discuss this together.
+- Linghui: decided to meet half hour Tuesday and Friday
+
 - Unexpected issue with empirical calculation of least action path: it is NOT true that results for sig_x = sig_y = 0.35 are the same as
   the results for sig_x = sig_y = 0.55 etc. I predicted, based on the Onsager-Machlup Lagrangian, that only the ratio sig_x/sig_y
   controlled the shape of the path. What's going on? I suspect there is an issue with the way I am calculating the `most likely' path.
-- Can we all use GitHub? (me, you, Cole, Linghui) How should we set it up? We should discuss this together. 
+- still thinking about how to do perturbation theory to predict locally how the occupancy fraction changes with the noise ratio. Might
+  not worry about it since it seems you have to be clever: perturbation theory with just the FP probability distribution is 
+  conventional, but this is PT with the FP distribution appropriately integrated. 
+  - generated program to calculating transition time distributions (doing it a little differently from before: in particular, calculating
+    time until cell reaches final deterministic attractor coordinates +- small tolerance, rather than until cell reaches the outermost
+    boundary of the final attractor. This is to facilitate easy comparisons with least action calculations.
+    Plus the results do not seem to be much different (so far). 
+
+- wrote up notes working out approximate SDE for single gene with Nth order feedback (assuming mRNA and all gene-protein binding reactions 
+  are at QSS)
+- wrote up notes deriving steady state probability distributions, peaks, and means, as analytic functions of all kinetic and noise parameters
+  for birth-death process assuming exact CME, Gillespie Fokker-Planck, additive Fokker-Planck, and multiplicative Fokker-Planck; provides
+  some insight, in this simple case, as to when additive/multiplicative approximations are justified. 
+  General conclusion here: if mu >> 1, additive noise works fine. Multiplicative noise is not very different either.
+  In fact, one should expect additive and multiplicative noise approximations to not be very different for a sharply peaked monostable
+  distribution (the noise coefficients effectively become fit parameters). 
+  But for multistable distributions, additive/multiplicative noise approximations will yield very different results. 
+  Another good reason to think about a bistable switch. 
