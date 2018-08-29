@@ -5,17 +5,26 @@ Agenda:
 - Any update on timeline for Wikswo review/perspective paper?
 - Can we all use GitHub? (me, you, Cole, Linghui) How should we set it up? We should discuss this together.
 - Linghui: decided to meet half hour Tuesday and Friday
+- need to sign up for research hours but you are not selectable online. Who do I talk to, how many do I sign up for?
 
 - Unexpected issue with empirical calculation of least action path: it is NOT true that results for sig_x = sig_y = 0.35 are the same as
   the results for sig_x = sig_y = 0.55 etc. I predicted, based on the Onsager-Machlup Lagrangian, that only the ratio sig_x/sig_y
   controlled the shape of the path. What's going on? I suspect there is an issue with the way I am calculating the `most likely' path.
+  
+- generated program to calculating transition time distributions (doing it a little differently from before: in particular, calculating
+   time until cell reaches final deterministic attractor coordinates +- small tolerance, rather than until cell reaches the outermost
+   boundary of the final attractor. This is to facilitate easy comparisons with least action calculations.
+   Plus the results do not seem to be much different (so far).   
+- Here's the new way I thought to do it. The least-action path tells you the most likely way a cell moves from point A to point B
+  in a time T. So you need to filter your paths: you need to find ones that make the trip in roughly time T, and whose destination is
+  roughly point B. Of those paths, you can interpolate them (since they might not have the same number of time steps), and pick a few
+  points in time to check. For each point in time, generate a histogram of the x and y values. The most likely x value and y value represent
+  the 'least action' path at that time.
+  The main issue is that you need to generate a lot of paths that make it through the filter. Working on this now.
 - still thinking about how to do perturbation theory to predict locally how the occupancy fraction changes with the noise ratio. Might
   not worry about it since it seems you have to be clever: perturbation theory with just the FP probability distribution is 
   conventional, but this is PT with the FP distribution appropriately integrated. 
-  - generated program to calculating transition time distributions (doing it a little differently from before: in particular, calculating
-    time until cell reaches final deterministic attractor coordinates +- small tolerance, rather than until cell reaches the outermost
-    boundary of the final attractor. This is to facilitate easy comparisons with least action calculations.
-    Plus the results do not seem to be much different (so far). 
+
 
 - wrote up notes working out approximate SDE for single gene with Nth order feedback (assuming mRNA and all gene-protein binding reactions 
   are at QSS)
