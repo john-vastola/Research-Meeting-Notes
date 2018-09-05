@@ -41,3 +41,21 @@ Agenda:
 
 Meeting Notes:
 ----------------
+- remember to do kernel density estimate over collection of all paths
+- better present idea that cells spend some time in bottom-right pseudo-state
+- in practice, may not make much of a difference whether or not you include intermediate paths in path integral calc
+- may be advisable to keep focus on gene regulation systems rather than protein-only systems in Linghui's work
+- probably single-gene (with/without feedback) and bistable switch (with varying levels of feedback) is publishable on its own
+- birth-death work seems kind of thin; should probably just find a way to fold that into other work
+
+For next week:
+- refine empirical transition path calculation so it's less jumpy
+- debug the Lagrangian-based transition path calculation
+- compare sig_x = sig_y between empirical and Lagrangian
+- empirical kernel density estimate/heatmap
+- preliminary transition probability calculations
+- may or may not put that into ACCRE
+- figure out if the sweep thing matters
+- possibly think about what you want to do for a computer (desktop or laptop; desktop recommended because ownership clear)
+
+
