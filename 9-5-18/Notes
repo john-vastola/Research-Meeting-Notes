@@ -1,0 +1,36 @@
+9-5-18 meeting:
+---------------------
+
+Agenda:
+----------
+- Kind of want to write a short paper to practice writing papers. Still feel like I don't 'get' how to organize a paper and
+  organize my time writing it. Idea: write short paper comparing various Fokker-Planck approximations to a birth-death process
+  using exact analytic results. 
+  
+  Proposed title: Quantifying the accuracy of chemical Langevin, additive noise, and
+  multiplicative noise approximations for a birth-death process via exact
+  analytic probability distributions and state transition paths
+  
+  Results: Exact steady-state (possibly time-dependent if I can do the calculation) probability distributions for 
+  CME, Fokker-Planck w/ Gillespie noise, Fokker-Planck w/ additive noise, Fokker-Planck w/ multiplicative noise
+  + moments + modes + Lagrangian-derived transition paths
+
+  Can submit to medium/lower tier journal; don't really care. 
+
+- Implemented empirical transition path finder. Show some results. Did the sig_x = sig_y problem go away?
+- Re-implemented path integral calculation. In the process of parallelizing it and putting it on ACCRE. 
+  (in principle, Monte Carlo path integral calculations are highly parallelizable, because each path contributes to the
+  transition probability independently of all other paths)
+  
+- Do you know a minimal reaction-based (without spatial dependence) model for chemotaxis? A lot of the models I'm finding 
+  have space dependence, but there must exist a model (even an approximation to the spatial models) that is CME only. Want
+  to have this for Linghui to work on.
+
+- Submitted the McMinn final report 
+- Do you have a GitHub account? Need to invite you as collaborator.
+
+
+----------------------------------------------------------------------
+
+Meeting Notes:
+----------------
