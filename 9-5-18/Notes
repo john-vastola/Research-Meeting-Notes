@@ -1,5 +1,6 @@
 9-5-18 meeting:
 ---------------------
+2:00 PM - 3:00 PM
 
 Agenda:
 ----------
@@ -17,7 +18,11 @@ Agenda:
 
   Can submit to medium/lower tier journal; don't really care. 
 
-- Implemented empirical transition path finder. Show some results. Did the sig_x = sig_y problem go away?
+- Implemented empirical transition path finder. Did the sig_x = sig_y problem go away?
+  Not sure yet; still need to debug. 
+  Path integral code is saying I have some negative actions (but S and L are nonnegative...)
+  Empirical transition path code is coming along all right.
+  
 - Re-implemented path integral calculation. In the process of parallelizing it and putting it on ACCRE. 
   (in principle, Monte Carlo path integral calculations are highly parallelizable, because each path contributes to the
   transition probability independently of all other paths)
@@ -28,6 +33,8 @@ Agenda:
 
 - Submitted the McMinn final report 
 - Do you have a GitHub account? Need to invite you as collaborator.
+- Wikswo thing?
+- Computer advice?
 
 
 ----------------------------------------------------------------------
