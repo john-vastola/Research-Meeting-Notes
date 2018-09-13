@@ -1,0 +1,62 @@
+9-13-18 meeting:
+---------------------
+2:30 PM - 3:30 PM
+
+Agenda:
+----------
+- Finally read the Zhou and Li 2016 paper (10.1063/1.4943096) reviewing three landscape formulations, and discussing/clarifying how 
+  they are all related. Lots of great info in there; I particularly thought the discussion of local vs global quasi-potentials
+  (in section III) was clear and brought up a great point. That point is: different landscapes may be useful to you depending on the
+  question you are interested in. Local quasi-potentials (derived from a path integral action/Lagrangian) encode (local) information 
+  about the most likely transition path connecting two points/probability of transition between two points. 
+  Global quasi-potentials (obtained here by gluing together local quasi-potentials) encode (global) information about the relative
+  stability of attractors. The point is made that both kinds of information are, in general, not compatible---i.e. there probably
+  isn't 'one true landscape'. 
+  
+- Made a rough outline for the landscape review article. For the most part, took your general structure (Intro, Landscapes, Applications)
+  and expanded it somewhat. I think more attention should be given to the 'bigger picture' questions, which are: "What question are we
+  asking that we want a landscape to answer?", and "What properties do we want our landscape to have?" These questions are related to
+  how we are representing our biological system, so I want to make the points that (i) noise is qualitatively important to incorporate, 
+  and (ii) landscape candidates should be somehow 'agnostic' to whether the system is described by the CME, or SDEs, or whatever.
+
+  Landscapes we should discuss include: the P_ss landscape; discrete Markov chain-type landscapes (which are rarely identified as
+  distinct from the others, but I've seen them used more than the others in practice); path integral/large deviation theory-derived
+  landscapes; vector decomposition landscapes; and possibly others. I couldn't find articles that used ln(f) as a landscape.
+  Also, the SDE decomposition landscape by Yuan, Tang, And Ao (ex: see 10.1007/s11467-017-0718-2) seems mathematically controversial.
+  Zhou and Li "trash talk" it at least twice (10.1063/1.4943096 and 10.1063/1.4964682) by claiming it is not well-defined in general.
+  
+  Also, I think issues regarding using the landscape should be a separate section. So the "Applications" section is how other people 
+  have used it, and the "The Landscape in practice" section contains talk about issues the reader might run into when attempting to
+  use it.
+  
+- Read ~100 pages of a simple book by John Baez on the connections between stochastic mechanics and quantum mechanics 
+  (https://arxiv.org/abs/1209.3632). This sort of thing is exactly what I had mind when I have said at various times I think 
+  the two theories are analogous. It discuss solving master equations using annihilation/creation operators, for example. 
+  Why does this matter? Now I can better read/understand papers on the Doi-Peliti/stochastic path integral formalism, so that
+  I can more rigorously justify my view on the Lagrangian etc. 
+  
+- Recall last week we discussed whether it matters that, in the Metropolis-Hastings algorithm, 'intermediate' paths are kept. 
+  I read in some detail on article on numerically implementing it (10.1119/1.5024926), and it seems like it does. Auto-correlations
+  between the paths used affect error bars and how quickly your results converge to the right answer.
+- I modified the algorithm to include several tweaks (path 'thermalization', discarding paths to reduce auto-correlation) but it is too
+  slow to run on my computer with these edits. I'll put it on ACCRE soon. 
+  
+- Minor thing: can calculate empirical transition probabilities for comparison with path integral results. Reuse the same code from 
+  empirical LAP calculation. See the picture included in this folder.
+- Minor thing: did the KDE. Looks as expected. See the picture in this folder.
+
+- Will answer questions regarding if only sig_x/sig_y matters and get better plots once I put path integral and empirical LAP code
+  on ACCRE. I have to relearn some of working with ACCRE since it's been a while.
+
+
+
+
+- iMac okay?
+
+----------------------------------------------------------------------
+
+Meeting Notes:
+----------------
+
+
+For next week:
