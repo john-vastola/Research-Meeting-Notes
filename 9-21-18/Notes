@@ -1,0 +1,42 @@
+9-21-18 meeting:
+---------------------
+2:00 PM - 3:00 PM
+
+Agenda:
+----------
+- I responded to each of your comments and emailed you my responses; I also slightly updated the outline to include some 
+  recommended changes. Some other points I'd like to discuss with you. 
+  My response and the updated outline are in this folder.
+  
+- Wrote outlines for the paper with Linghui and the asymmetric noise paper. I did write an outline for the asymmetric noise paper
+  a long time ago, but I figured it was worth a revamp given some time and the slight change of perspective that comes with that.
+  The outlines are in this folder.
+  
+- Wrote a little stuff that could go in the asymmetric noise paper or Linghui's paper. Very very incomplete, but in this folder.
+
+- Related to writing, I've tried to adhere to a strict writing schedule (8-10 M-F), but I'm having a hard time getting into it.
+  Will try to improve.
+  
+- Worked on a toy problem for no particular reason: finding the steady state(s) of a gene which regulates itself with Nth order
+  feedback, given that mRNA + all binding reactions are at QSS. The problem is trivial for N = 0, 1. The problem is solvable but has
+  incredibly complicated (exact) solutions for N = 2, 3. Not clear if the problem is (exactly) solvable for N > 3. 
+  
+  Can prove some interesting things though. For example, can prove that the steady states corresponds to an 'effective transcription
+  rate' k_eff which satisfies k_min <= k_eff <= k_max. In other words, naively expect that the 'true' transcription output is some kind
+  of appropriately weighted average over k_1, ..., k_N; this result formalizes that expectation. 
+  
+- Didn't get stuff on ACCRE or do some of the things I promised. I had an off week; I apologize.
+
+- What did you think of my hasty comments on that paper?
+
+- iMac
+
+----------------------------------------------------------------------
+
+Meeting Notes:
+----------------
+
+
+
+
+For next week:
