@@ -1,0 +1,32 @@
+9-28-18 meeting:
+---------------------
+11:00 AM - 12:00 PM
+
+Agenda:
+----------
+- I was able to come up with a reasonable definition for a global/local landscape. What do you think about it? Agree/disagree?
+
+  What I've written up so far is pretty technical, and probably not fit (at least in this detailed a form) for the landscape review.
+  But maybe some of it would be appropriate for a complementary technical article (on some of the math). 
+  
+  Wang's P_ss landscape is a global landscape, Huang's normal decomposition is a global landscape (in the small additive noise limit),
+  LDT/transition path yields local landscape, can define Markov chain global/local landscapes. Everything seems to check out.
+  
+  See the document in this folder for a write-up.
+
+
+
+- Still need to do:
+   - get out of worker's block: get asymmetric noise figure done
+   - write shitty draft
+   - write clean/concrete outline
+
+----------------------------------------------------------------------
+
+Meeting Notes:
+----------------
+
+For next week:
+- get out of worker's block: get asymmetric noise figure done
+- write shitty draft
+- write clean/concrete outline
