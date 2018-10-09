@@ -1,0 +1,27 @@
+10-9-18 meeting:
+---------------------
+1:00 PM - 2:00 PM
+
+Agenda:
+----------
+- Finally invested some time in figuring out ACCRE again and set up a reasonably organized workflow (subject to improvement). 
+  One of the issues I was worried about was having to rewrite programs to make plotting external (since you can't do graphical
+  stuff on the non-graphical cluster), but it turns out there is a workaround. Now I can use programs without any rewriting.
+- Now that ACCRE works, I sent Lagrangian LAP and empirical LAP calculations to it.
+- Made some KDE + empirical LAP plots on my computer. Strange phenomenon: the points seem to be clustered differently from how the
+  LAP looks. The lap goes straight left to the pseudo-attractor, then straight up. The KDE shows most of the mass in a less sharp 
+  curve shape. Why is there disagreement if the LAP is, by definition, where most of the points are (at a given time)? 
+  Then again, the KDE is all points at all times, so maybe some disagreement is to be expected.
+
+
+
+- Still need to do:
+   - LAP review writing
+
+----------------------------------------------------------------------
+
+Meeting Notes:
+----------------
+
+For next week:
+- 
