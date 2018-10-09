@@ -12,11 +12,22 @@ Agenda:
   LAP looks. The lap goes straight left to the pseudo-attractor, then straight up. The KDE shows most of the mass in a less sharp 
   curve shape. Why is there disagreement if the LAP is, by definition, where most of the points are (at a given time)? 
   Then again, the KDE is all points at all times, so maybe some disagreement is to be expected.
-
+  
+- Also, spent some time last week deriving the chemical Langevin equation corresponding to a bistable switch with arbitrary 
+  (and not necessarily independent) binding between the two species. In other words, X can bind to itself and to Y, and Y can bind 
+  to itself and X, and the nothing is assumed about the forward/reverse binding constants in each case.
+  Arbitrary order feedback is assumed: at most N_x protein X can bind to either gene, and at most N_y protein Y can bind to either gene.
+- I wrote the notes/did the derivation in three stages: (i) mutually exclusive first-order binding, (ii) independent Nth order binding,
+  (iii) fully general binding. All are included in this folder.
+- Interesting related observation: in principle you can justify from first principles the choice of adding or multiplying Hill functions.
+  Both seem to be valid based on the assumptions you make. 
+  Ex: If binding is independent, highly cooperative, and 'most' transcriptional activity happens in the saturated gene states, adding
+  Hill functions seems like a good approximation. 
 
 
 - Still need to do:
    - LAP review writing
+   - reading those two papers you sent me
 
 ----------------------------------------------------------------------
 
