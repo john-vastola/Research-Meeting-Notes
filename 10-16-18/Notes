@@ -25,9 +25,10 @@ Agenda:
   useful special cases. A write-up is in this folder. The math is pretty simple.
 - Related: I realized that the fact that energy is conserved depends crucially on the validity of Hamilton's equations. But, in
   their usual form, one supposes that the canonical momenta do not depend on position, which in our case is not true. I realized
-  that Hamilton's equations might look different when one has 'position-dependent mass' and some drift terms. After running it around
-  for a bit, I found out that energy IS conserved after all, but the reason for its conservation is a little mathematically different.
-  So...no harm, no foul, I guess.
+  that Hamilton's equations might look different when one has 'position-dependent mass' and some drift terms. 
+- To be honest, I am still not sure if I have the story right. Do Hamilton's equations change, or are they the same? 
+  Is energy/the Hamiltonian still conserved, or is it not? Is something else conserved?
+- Want to figure this out first...
 
 
 - I read one of the Weinberger papers ("Screening for noise in gene expression identifies drug synergies", Science, 2014). It says that
