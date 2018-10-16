@@ -1,0 +1,53 @@
+10-16-18 meeting:
+---------------------
+1:00 PM - 2:00 PM
+
+Agenda:
+----------
+- Had a lot of trouble getting any kind of reasonable-looking LAP results from minimizing the action via Monte Carlo guessing. I think
+  I am running into the `curse of dimensionality'. If you use paths with too many vertices, you will randomly search through path
+  space forever and not find the result you want. If you use paths with too few vertices, your action minimization will give you weird 
+  answers, because you are integrating over very jagged paths. The fact that your paths are too jagged is not helped much by enforcing
+  a 'continuity penalty' (which would disappear in the limit of many vertices), as Jin Wang et al did in their 2011 PNAS paper. 
+- Even in ACCRE, running for a few hours, it's hard to guess a good path. What can be done?
+
+...
+
+- I've decided to retreat back to an old idea. First, use the EL equations/Hamilton equations to find the LAP by solving coupled
+  second order ODEs. Then you can calculate transition probabilities/moments/etc by doing Monte Carlo perturbations of the LAP you
+  already found. The thing is, most of the paths found using the Monte Carlo only are useless: they are too far from the LAP, so they 
+  contribute negligibly to transition probabilities. If all of your paths are 'close' to the LAP, then they actually contribute.
+- Only issue (as I've said before): how do you solve the EL eqns without knowing the initial velocities? You'd like to choose them so
+  that x(T) = xf and y(T) = yf.
+- I think the only reasonable way this can be done is through systematic guessing ('shooting'-type methods). Working on this now.
+
+- In service of implementing this numerically, I finally sat down and derived the fully general EL equations, along with some
+  useful special cases. A write-up is in this folder. The math is pretty simple.
+- Related: I realized that the fact that energy is conserved depends crucially on the validity of Hamilton's equations. But, in
+  their usual form, one supposes that the canonical momenta do not depend on position, which in our case is not true. I realized
+  that Hamilton's equations might look different when one has 'position-dependent mass' and some drift terms. After running it around
+  for a bit, I found out that energy IS conserved after all, but the reason for its conservation is a little mathematically different.
+  So...no harm, no foul, I guess.
+
+
+- I read one of the Weinberger papers ("Screening for noise in gene expression identifies drug synergies", Science, 2014). It says that
+  using a noise enhancer on top of a standard activator/inhibitor increases HIV reactivation. This makes intuitive sense: bias the cells
+  towards their intended destination, and give them enough 'push' to get there. Doesn't seem to be much substance beyond that.
+- The more recent paper ("A post-transcriptional feedback mechanism for noise suppression and fate stabilization", Cell, 2018) I didn't 
+  spend much time on, but the idea seems interesting: it shows a specific biological example of how noise is suppressed, through a 
+  post-transcriptional negative feedback mechanism. This idea could be incorporated in the review as an example of how noise might
+  be controlled.
+  
+
+  
+- Any new thoughts on the local landscape definition?
+
+- Still need to do:
+  - landscape writing
+
+----------------------------------------------------------------------
+
+Meeting Notes:
+----------------
+
+For next week:
