@@ -50,5 +50,27 @@ Agenda:
 
 Meeting Notes:
 ----------------
+- bet-hedging is controversial, if it included make it a very small part of apps with big caveat
+- good to have some discussion (using as a resource, for example, Weinberger's "A post-transcriptional feedback mechanism...") of
+  what it actually means to tune noise or deterministic part biologically
+- probably have to do the chain rule in Hamiltonian calcs
+- if LAP stuff takes too long, put it aside and come back to it later
+- may want to leave technical/mathematical stuff (like math definitions) of landscape stuff out of the paper. Intuition from
+  definitions we come up with would still belong. After all, journal is: "Experimental Biology and Medicine"
+- (my) idea: maybe there are DIFFERENT local landscapes associated with different characteristic timescales. For example,
+  imagine two attractors (1 and 2) very close to each other, and one attractor (3) far away from both of them. There are 
+  two characteristic timescales: the timescale for transitions between 1 and 2, and the timescale for transitions between 1+2 and 3. 
+  Maybe your local landscape reflects the timescale you choose. 
+  Right now, the definition assumes you are only working with very short timescales. 
 
+  Possibly: phi(x) < phi(y) if P(x0, x; t) > P(x0, y; t) for all t in [t1, t2]
+  
+  i.e. a local landscape requires a time interval [t1, t2] and a basepoint x0 in its definition.
+  
+  
+  
 For next week:
+send outline (start with fresh document) by Thursday
+150 word abstract
+2 paragraphs of introduction (not more than a page)
+don't worry about bullet points, focus on headings and subheadings
