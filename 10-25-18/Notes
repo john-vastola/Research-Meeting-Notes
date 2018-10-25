@@ -11,6 +11,25 @@ Agenda:
   fixed by just using the fact that E is constant to integrate one out of the degrees of freedom from the start, so that I just need
   to solve three DEs numerically instead of four.
   
+- The nice thing about energy is that you can show mathematically that it should scale inversely with the time T the cell reaches
+  the final point xf. In other words, one can use an algorithm something like this: pick an E, then find the unique px0 such that
+  the path hits xf at some point. If it reached xf too late, increase E. If it reached xf too early, decrease E. Continue until 
+  you hit the time you want.
+  
+- Was able to manually pick the correct px0 corresponding to E in a few situations. See the picture in this folder.
+
+- Haven't yet implemented the automatic IC finder (which E and which px0 correspond to reaching xf in time T?), but will soon.
+
+- Misc interesting thing: especially in 1D, conservation of energy has some interesting consequences. For example:
+                  - E >= 0 for a transition that touches an attractor at any point
+                  - if xf > x0 in a 1D attractor-attractor transition, you need v0 > 0; if xf < x0, you need v0 < 0
+                  - In 1D, E = 0 if and only if x = +- f.
+                  - In 1D, if E > 0, then either x-dot > |f| always or x-dot < |f| always. In particular, x-dot never changes sign.
+  Some associated notes in this folder. The reason I thought about these things was to see if I could restrict px0 in any way.               
+
+
+- Sent you the landscape review outline and you said it was good. So that's good.  
+  
 - I promised 1000 new words and 20 refs on the landscape review. Have been writing plenty of words, but did not collect all those refs.
   Will do that this week. A current (very messy) LaTeX draft is in this folder.
   
@@ -46,6 +65,9 @@ Agenda:
 - Another example to answer the following: can different systems have the same landscape? Yes. Simple example: imagine a 1D system
   governed by a potential V and an additive noise coefficient s. Imagine the similar system with potential k V (for some positive
   constant k) and additive noise coefficient sqrt(k) s. The P_ss will be the same in each case.
+
+- Have various ideas for helpful figures. Not sure if I should run these by you first or just go ahead and prototype. 
+
 
 - Still need to do: more landscape writing. Overlapping the Lagrangian LAP with the empirical LAP and the KDE.
 
