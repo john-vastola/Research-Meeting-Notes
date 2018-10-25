@@ -1,0 +1,58 @@
+10-25-18 meeting:
+---------------------
+2:00 PM - 3:00 PM
+
+Agenda:
+----------
+- Managed to resolve the issue with Hamilton's equations and the conservation of energy: after doing things carefully, it turns out
+  that Hamilton's equations ARE the same after all, and energy really is conserved. The derivation and some discussion is in this folder.
+  
+  It turns out that my issue with energy not being conserved in my simulation was actually just a numerical stability issue; it was
+  fixed by just using the fact that E is constant to integrate one out of the degrees of freedom from the start, so that I just need
+  to solve three DEs numerically instead of four.
+  
+- I promised 1000 new words and 20 refs on the landscape review. Have been writing plenty of words, but did not collect all those refs.
+  Will do that this week. A current (very messy) LaTeX draft is in this folder.
+  
+- I have come up with a few cool examples to demonstrate various things about the landscape. 
+  I sent one of them to you last Thursday. That one was to counter the usual assumption that 'increasing noise' (whatever that means)
+  increases the probability of a transition between attractors. While this is sometimes true, one can come up with reasonable situations
+  involving multiplicative noise where increasing a multiplicative noise coefficient actually causes the probability of a transition
+  to go down! In the example I showed you, while the barrier height does decrease, the other attractor gets more shallow faster than that
+  happens, so the probability of a transition goes down overall.
+  
+- Here's another one. Last time, our discussion led me to an interesting idea: maybe, instead of local landscapes necessarily reflecting
+  VERY SMALL times, local landscapes should be associated with any specific time interval. Why? Because what happens next to a cell
+  depends on the time scale you care about. In other words, the local landscape describing what a cell is most likely to do in the 
+  next minute is probably different than the local landscape describing what a cell will do in the next hour.
+  
+  Consider the following simple example: a 1D system whose dynamics are governed by a 5 attractor potential, with the attractors 
+  getting deeper and deeper as you go from left to right (I will draw this for you). If the cell starts in the leftmost attractor,
+  on the smallest timescale, it is most likely to stay within the first attractor. On the next smallest, it might be in the first or
+  second. On a longer timescale, it is overwhelmingly likely to be in A3. On an even longer one, it is overwhelmingly likely to be 
+  in A4. And so on. For local landscapes to be useful, they must reflect this---so they must take specific timescales into account!
+  
+  I haven't written this up but will soon. I am also planning to present this example as a figure in the review paper.
+
+- Another example to answer the following question: do transition paths ever correspond to landscape surface geodesics?
+  As far as I can tell, the answer is no, even in simple cases like having purely symmetric additive noise. I worked out the
+  EOM for a geodesic on an arbitrary surface (not sure how helpful this is). 
+  
+  In the paper, I might present this by showing a picture comparing the geodesic to the true transition path. Ideally, I can come
+  up with an example where the two are very different. For example, it would be nice to come up with a system where the geodesic
+  is a straight line, but the transition path in either direction is hyperbolic. Still thinking about this, but if I can't come up
+  with something clever, I'll just do a numerical simulation of a mutual inhibition system and be done.
+
+- Another example to answer the following: can different systems have the same landscape? Yes. Simple example: imagine a 1D system
+  governed by a potential V and an additive noise coefficient s. Imagine the similar system with potential k V (for some positive
+  constant k) and additive noise coefficient sqrt(k) s. The P_ss will be the same in each case.
+
+- Still need to do: more landscape writing. Overlapping the Lagrangian LAP with the empirical LAP and the KDE.
+
+----------------------------------------------------------------------
+
+Meeting Notes:
+----------------
+
+  
+For next week:
