@@ -1,0 +1,40 @@
+11-7-18 meeting:
+---------------------
+2:00 PM - 3:00 PM
+
+Agenda:
+----------
+- Having trouble with landscape writing. Ex: we're basically saying the ball rolling around idea---i.e., the landscape---is
+  wrong for various reasons. What are we replacing it with? I can't think of a way to recover a ball rolling around idea. But then
+  all you have is some probability distributions. Is that all we can safely think about?
+
+- Implemented Linghui Gill vs additive solver this morning. Get parabolic KLD. Multiplicative noise one having problems in the low
+  protein region; still thinking about how to fix that.
+  
+  Also on this topic: having a hard time finding parameter regimes where there is bistability. This reduces to the problem of coming
+  up with a parameter set such that the 'Hill' function and decay term intersect three times. Since it is so hard to find this by 
+  guessing (in my experience), I have come up with a semi-clever way of guaranteeing three intersections. Still a work in progress
+  though.
+  
+- Had some doubts again about the Lagrangian, thinking about justifying it in landscape review transition paths section. Found a 
+  helpful paper that SEEMS to dispel the fog, since there have been a lot of conflicting accounts so far. These authors go into 
+  gritty mathematical detail and also explain in detail why some other authors are wrong.
+  
+  According to them, my Lagrangian is right for the Ito interpretation. They offer the correct result for general alpha.
+  
+  The root of the problem is this: to arrive at a path integral/Lagrangian for multiplicative noise, it is convenient to begin at the
+  agreed-upon expression for additive noise. Then several authors have tried to do a change of variables to obtain the multiplicative
+  noise result. But apparently, doing a change of variables inside the path integral is a delicate issue, because of the Ito lemma
+  complicating things.
+  
+  Paper: https://arxiv.org/pdf/1704.03501.pdf
+  
+  
+- Still need to do: more landscape writing. Overlapping the Lagrangian LAP with the empirical LAP and the KDE.
+
+----------------------------------------------------------------------
+
+Meeting Notes:
+----------------
+  
+For next week:
