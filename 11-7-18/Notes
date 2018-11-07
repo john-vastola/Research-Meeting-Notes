@@ -36,5 +36,19 @@ Agenda:
 
 Meeting Notes:
 ----------------
+- 'Global landscape' does not say anything more than a steady state prob distribution, unfortunately
+- Curl term in principle helps encode all dynamics, but not in a useful way
+- Potentially good way to frame things:
+  Waddington really proposed two ideas: the landscape, and dynamics on the landscape. It turns out that both kinds of information
+  are generally incompatible, and different landscapes need to be constructed in order to answer questions related to each.
+  Moreover, local landscapes might not be as useful in practice as just directly calculating transition paths (possibly by 
+  calculating some sort of least action path).
+- For Linghui calc: stay away from zero for mult noise. Choose a parameter set so that the support of your prob dist is away 
+  from zero.  
   
 For next week:
+- Write the 'methods' sections: the different types of landscapes and the section on transition paths. If you're having trouble
+  with framing, focus on the 'objective' parts first.
+- Compare empirical path for additive to empirical for multiplicative.
+- Make an IC finder.
+- Overlay empirical/Lagrangian LAP on brute-force landscape. Do they agree? (they should)
