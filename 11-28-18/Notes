@@ -25,5 +25,18 @@ Agenda:
 
 Meeting Notes:
 ----------------
+- put together a figure explaining steady state probability distributions, transition probabilities
+- consider looking at blood lineages as interesting application of landscape
+- look at epithelial/mesenchymal stuff
+- instead of finding empirical LAP, do a KDE of all the paths that satisfy the requirements and overlay the Lagrangian LAP.
   
+- find 3 or 4 specific points that form subsections of the asymmetric noise results paper. Each subsection corresponds to one main
+  point and one multi-panel figure.  (occupancy bias, directions of transitions, rates of transitions, ...)
+  
+- A. control, B. immediate experiments that get to point, C. secondary experiment that verifies main result, D. cartoon or pretty pic
+
+- take a look at multistable (3-4 attractors) system to see if you understand what's going on as far as preferentially driven
+  transitions and landscape
+- consider how you will incorporate the added hill functions (currently they are multiplied)
+
 For next week:
