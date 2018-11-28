@@ -1,0 +1,29 @@
+11-28-18 meeting:
+---------------------
+2:00 PM - 3:00 PM
+
+Agenda:
+----------
+- Been working on the review, although I stopped writing for now to give you a chance to do something with it.
+  Lots needs to be done, but I am making progress figuring out what I want to say and how I want to say it. 
+  We should discuss how we want to approach various things, though. What I sent you is in this folder.
+- Been workng on the review reference list; I'm finding many, many citeable Jin Wang papers. He has made a career over the past decade
+  out of constructing a simple model, calculating the P_ss landscape for it, and publishing a paper on that. 
+- I also followed the citation trail related to his path integral/Lagrangian. It references some work in protein folding and some other
+  things, which is interpreted Stratonovich-style (i.e. he cannot justify using the path integral/Lagrangian from those systems!). 
+  An old paper he cites suggests that the Lagrangian/path integral is interpretation-independent, which is emphatically not true.
+  
+- Been working on writing the asymmetric noise paper too. Very early work is in this folder. Want to draft by end of semester.
+- Converted all my histograms to KDEs, they look much better. See pics in this folder.
+- Trying new method for finding LAP (explain). 
+- Side note: additive noise seems to yield straight-line-like LAPs, while multiplicative noise seems to yield L_shaped LAPs. 
+  (theoretical reason for this?)
+  
+- Still need to do: 
+
+----------------------------------------------------------------------
+
+Meeting Notes:
+----------------
+  
+For next week:
