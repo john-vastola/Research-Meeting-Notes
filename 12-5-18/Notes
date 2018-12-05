@@ -1,0 +1,23 @@
+12-5-18 meeting:
+---------------------
+2:00 PM - 3:00 PM
+
+Agenda:
+----------
+- Worked a little on the review thinking about your comments. (Discuss comments.) Not much progress though.
+- Started to convert work on bistable model to tri/quadrustable model. Found some parameter sets that work, still need to examine
+  transition paths etc.
+- Generalized 1D steady state Fokker-Planck solver to work with arbitrary noise. Used it to solve Mexican hat potential for 
+  additive and multiplicative noise. Trying to calculate transition probabilities as function of noise too; would be nice piece of a 
+  figure. (Discuss time issue.)
+  
+- Still need to do: LAP KDE thing with Lagrangian LAP superimposed
+
+----------------------------------------------------------------------
+
+Meeting Notes:
+----------------
+
+
+
+For next week:
