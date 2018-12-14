@@ -25,7 +25,12 @@ PLAN FOR DECEMBER-JANUARY:
 
 Meeting Notes:
 ----------------
+- get various direct simulation KDE landscapes done for tristable/quadrastable system: 
+    - low additive, high additive, low mult, high mult (deterministically symmetric, look at noise asymmetry)
+    (do this within a week)
+    for tristable system, find parameter set with (lo, hi) (hi, lo) (hi, hi)    rather than third attractor being (lo, lo)
+    if can make version with transition paths, make version with transition paths (but do the rest first)
 
-
+- Meet next Thursday at 11
 
 For next week:
